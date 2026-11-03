@@ -17,7 +17,13 @@ export const metadata: Metadata = {
   title: "Naman Gupta | Portfolio",
   description: "Personal portfolio of Naman Gupta",
   icons: {
-    icon: "/favicon.png",
+    icon: [
+      {
+        url: "/favicon.png?v=2",
+        type: "image/png",
+        sizes: "512x512",
+      },
+    ],
   },
 };
 

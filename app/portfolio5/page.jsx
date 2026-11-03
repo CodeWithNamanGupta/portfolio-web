@@ -91,7 +91,7 @@ export default function PortfolioHome() {
         </section>
 
         <section className="content-section projects-section" id="projects">
-          <div className="section-heading">
+          <div className="section-heading projects-heading">
             <span className="section-index">02 / SELECTED WORK</span>
             <h2>Projects with a<br /><span>purpose.</span></h2>
           </div>

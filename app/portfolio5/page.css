@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+.portfolio-home{--bg:#0d0d0d;--panel:#191919;--orange:#f25c27;--muted:#999;--white:#f4f1ee;background:var(--bg);color:var(--white);font-family:'Manrope',sans-serif;min-height:100vh;overflow:hidden}
+.portfolio-home *{box-sizing:border-box}
+.portfolio-home a{color:inherit;text-decoration:none}
+.site-header{height:86px;padding:0 6.5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #242424}
+.brand-mark{font-size:25px;font-weight:800;letter-spacing:-2px}.brand-mark span,.community-name span{color:var(--orange)}
+.main-nav{display:flex;align-items:center;gap:34px}.main-nav a,.site-footer,.eyebrow,.section-index,.hero-kicker,.meta-box p,.project-topline,.tag-list,.community-label{font-family:'DM Mono',monospace;font-size:10px;letter-spacing:1.1px}.main-nav a{color:#c7c1bd;transition:color .2s}.main-nav a:hover,.site-footer a:hover{color:var(--orange)}.main-nav .contact-btn{border:1px solid var(--orange);padding:13px 18px;color:var(--white)}
+.hero-section{padding:52px 6.5% 100px}.hero-kicker{color:#c7c1bd;display:flex;align-items:center;gap:10px}.status-dot{width:7px;height:7px;border-radius:50%;background:var(--orange);box-shadow:0 0 12px #f25c2780}
+.hero-meta-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:28px 0 22px}.meta-box{border:1px solid #292929;padding:16px 18px;background:#111}.meta-box p{color:var(--muted);margin:0 0 8px}.meta-box h4{font-size:13px;margin:0;font-weight:600}
+.hero-image-wrapper{height:clamp(300px,43vw,560px);overflow:hidden;border:1px solid #292929}.hero-image-wrapper .reveal-container{min-height:100%;height:100%}
+.hero-title-row{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-top:54px}.eyebrow{color:var(--orange);margin:0 0 18px}.hero-title-row h1,.section-heading h2,.resume-section h2{font-size:clamp(42px,6.7vw,88px);line-height:.99;letter-spacing:-5px;margin:0;font-weight:700}.hero-title-row h1 span,.section-heading h2 span,.resume-section h2 span{color:var(--orange)}.hero-intro{max-width:330px;color:#aaa;line-height:1.8;font-size:14px;margin:0 0 7px}
+.hero-actions{display:flex;gap:30px;align-items:center;margin-top:35px}.primary-link{display:inline-flex;align-items:center;gap:28px;background:var(--orange);padding:16px 20px;font:500 10px 'DM Mono',monospace;letter-spacing:1px;color:#fff!important;transition:transform .2s,background .2s}.primary-link:hover{transform:translateY(-3px);background:#ff7040}.primary-link span{font-size:17px}.text-link,.resume-link{font:10px 'DM Mono',monospace;letter-spacing:1px;color:#ccc!important}
+.content-section{padding:105px 6.5%;border-top:1px solid #252525;display:grid;grid-template-columns:1fr 1.15fr;gap:8%}.section-index{color:var(--orange);display:block;margin-bottom:26px}.section-heading h2{font-size:clamp(38px,5vw,66px);letter-spacing:-3.5px}.about-copy>p,.community-copy>p,.resume-copy>p{color:#aaa;font-size:14px;line-height:1.9;margin:0 0 20px;max-width:650px}.stat-strip{display:flex;gap:35px;border-top:1px solid #333;margin-top:38px;padding-top:25px}.stat-strip div{display:flex;flex-direction:column;gap:7px}.stat-strip strong{font-size:30px;color:var(--white)}.stat-strip span{font:9px 'DM Mono',monospace;color:var(--muted);letter-spacing:.5px}
+.projects-section{display:block}.projects-section .section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:45px}.projects-section .section-index{align-self:start}.projects-section .section-heading h2{min-width:55%}.project-list{display:grid;grid-template-columns:1fr 1fr;gap:15px}.project-card{background:var(--panel);border:1px solid #292929;padding:28px;min-height:310px;display:flex;flex-direction:column}.project-topline{display:flex;justify-content:space-between;gap:15px;color:#8d8580;font-size:8px;line-height:1.6}.project-card h3{font-size:clamp(24px,3vw,38px);letter-spacing:-1.5px;margin:48px 0 14px}.project-card>p{font-size:13px;line-height:1.8;color:#aaa;margin:0;max-width:570px}.project-bottom{margin-top:auto;padding-top:25px;display:flex;justify-content:space-between;gap:12px;align-items:end}.tag-list{display:flex;gap:7px;flex-wrap:wrap}.tag-list span{border:1px solid #45403d;padding:7px 9px;color:#c9c1bc;font-size:8px}.project-note{font-size:10px;color:var(--orange);text-align:right}
+.skill-list{border-top:1px solid #333}.skill-row{display:grid;grid-template-columns:40px 1fr 1fr 20px;align-items:center;gap:15px;padding:22px 0;border-bottom:1px solid #333}.skill-number{font:10px 'DM Mono',monospace;color:var(--orange)}.skill-row h3{font-size:16px;margin:0}.skill-row p{font-size:12px;color:#888;margin:0}.skill-arrow{color:var(--orange)}
+.community-name{font-size:48px!important;letter-spacing:-2px;color:#fff!important;font-weight:800;margin-bottom:15px!important}.community-label{display:inline-block;color:var(--orange);margin-top:20px}
+.achievement-band{margin:0 6.5%;padding:36px 0;border-top:1px solid #35302d;border-bottom:1px solid #35302d;display:grid;grid-template-columns:1fr 1.15fr;gap:8%}.achievement-band>div{display:flex;align-items:center;gap:30px}.achievement-band strong{font-size:38px;white-space:nowrap;color:var(--orange)}.achievement-band p{font-size:12px;line-height:1.8;color:#aaa;max-width:500px}
+.resume-section{padding:110px 6.5%;display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:end}.resume-section h2{font-size:clamp(42px,5.5vw,72px)}.resume-copy{max-width:430px}.resume-copy .primary-link{margin:10px 20px 0 0}.resume-link{display:inline-block;margin-top:22px}
+.site-footer{padding:25px 6.5%;border-top:1px solid #292929;display:flex;justify-content:space-between;gap:20px;color:#777;font-size:9px}.site-footer div{display:flex;gap:24px}.site-footer a{color:#c4bdb8}
+@media(max-width:760px){.site-header{height:72px;padding:0 5%}.main-nav{gap:14px}.main-nav a{font-size:8px}.main-nav a:nth-child(1),.main-nav a:nth-child(3){display:none}.hero-section{padding:38px 5% 70px}.hero-meta-grid{grid-template-columns:1fr;gap:8px}.meta-box{padding:13px 15px}.hero-title-row{display:block;margin-top:38px}.hero-title-row h1,.section-heading h2,.resume-section h2{letter-spacing:-2.5px}.hero-intro{margin-top:22px}.content-section,.resume-section{padding:70px 5%;grid-template-columns:1fr;gap:35px}.projects-section .section-heading{display:block}.project-list{grid-template-columns:1fr}.project-card{min-height:290px;padding:22px}.project-card h3{margin-top:35px}.skill-row{grid-template-columns:28px 1fr 18px}.skill-row p{grid-column:2;grid-row:2}.skill-arrow{grid-column:3;grid-row:1}.stat-strip{gap:17px;justify-content:space-between}.stat-strip strong{font-size:25px}.stat-strip span{font-size:8px}.achievement-band{margin:0 5%;grid-template-columns:1fr;gap:12px}.achievement-band>div{align-items:flex-start;flex-direction:column;gap:5px}.achievement-band strong{font-size:32px}.site-footer{padding:22px 5%;flex-wrap:wrap}.site-footer div{order:3;width:100%;justify-content:space-between}.hero-image-wrapper{height:330px}}
+@media(max-width:420px){.main-nav{gap:9px}.main-nav .contact-btn{padding:10px}.hero-actions{gap:17px;flex-wrap:wrap}.project-topline{display:block}.project-topline span{display:block;margin-bottom:5px}.project-bottom{display:block}.project-note{display:block;text-align:left;margin-top:12px}.stat-strip{flex-wrap:wrap}}
+
+/* Compact interactive detail, integrated into the existing Learning card */
+.learning-meta{display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0}
+.learning-meta>div:first-child{min-width:0}
+.learning-meta .hairline-figure{width:104px;height:72px;flex:0 0 104px;overflow:hidden;--hairline-plate:#111;--hairline-hi:#f4f1ee;--hairline-edge:#a1a1aa;--hairline-mid:#52525b;--hairline-lo:#27272a;--hairline-stroke:0.9}
+.learning-meta .hairline-figure>div{width:100%;height:100%}
+.learning-meta .hairline-figure canvas{display:block;width:100%!important;height:100%!important}
+
+.tensor-achievement{grid-column:1/-1;padding-bottom:24px;border-bottom:1px solid #35302d;margin-bottom:8px}.tensor-achievement p{font-size:13px;color:#aaa}.tensor-achievement strong{color:#f25c27;font-size:inherit;white-space:normal}
+
+/* Portrait reveal: constrain both image layers to the hero frame */
+.portfolio-home .hero-image-wrapper{position:relative;isolation:isolate;overflow:hidden;background:#f4f1ee}
+.portfolio-home .hero-image-wrapper .reveal-container{position:relative;width:100%;height:100%;min-height:0;overflow:hidden;isolation:isolate}
+.portfolio-home .hero-image-wrapper .image-layer{position:absolute;inset:0;width:100%;height:100%;max-width:100%;max-height:100%;display:block;object-fit:contain;object-position:center bottom;pointer-events:none;user-select:none}
+.portfolio-home .hero-image-wrapper .image-layer.masked{clip-path:circle(0 at var(--x,50%) var(--y,50%));transition:clip-path .10s ease-out}
+@media(max-width:760px){.learning-meta .hairline-figure{width:82px;height:58px;flex-basis:82px}}
+
+
+/* Smooth in-page navigation for About, Projects and Community. */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 22px;
+}
+#about, #projects, #community {
+  scroll-margin-top: 24px;
+}
+
+/* PatternWaves sits behind the existing portfolio content. */
+.portfolio-home {
+  position: relative;
+  isolation: isolate;
+}
+.portfolio-home > .portfolio-waves-bg {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  opacity: 0.22;
+  pointer-events: none !important;
+}
+.portfolio-home > .portfolio-waves-bg canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+.portfolio-home > header,
+.portfolio-home > main,
+.portfolio-home > footer {
+  position: relative;
+  z-index: 1;
+}
+
+/* Cursor ring follows the mouse and stays above all page elements. */
+.custom-cursor {
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  width: 34px;
+  height: 34px;
+  border: 1.5px solid #f25c27;
+  border-radius: 50%;
+  background: rgba(242, 92, 39, 0.10);
+  pointer-events: none !important;
+  z-index: 2147483647 !important;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: width .18s ease, height .18s ease, background .18s ease, opacity .12s ease;
+  will-change: left, top, transform;
+}
+.custom-cursor.is-visible { opacity: 1; }
+.custom-cursor.clicked {
+  width: 48px;
+  height: 48px;
+  background: rgba(242, 92, 39, 0.24);
+}
+
+/* Both portrait layers stay inside the hero frame. Naman remains visible by default. */
+.portfolio-home .hero-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #f4f1ee;
+}
+.portfolio-home .hero-image-wrapper .reveal-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  isolation: isolate;
+}
+.portfolio-home .hero-image-wrapper .image-layer {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  pointer-events: none;
+  user-select: none;
+}
+.portfolio-home .hero-image-wrapper .image-layer.masked {
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  transition: opacity .12s ease;
+}

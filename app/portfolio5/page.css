@@ -134,3 +134,22 @@ html {
   mask-size: 100% 100%;
   transition: opacity .12s ease;
 }
+
+
+/* Force Projects heading to the left on all screen sizes */
+.projects-section .section-heading {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+  width: 100%;
+}
+
+.projects-section .section-heading h2 {
+  align-self: flex-start !important;
+  text-align: left !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  min-width: 0 !important;
+  width: auto;
+}
